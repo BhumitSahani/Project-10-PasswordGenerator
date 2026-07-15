@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#title-2 {
+    color: #50C878;
+    margin-bottom: 40px;
+}
+#password-length {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 170px;
+}
+.passwordType{
+    background-color: #50C878;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+    text-shadow: 0px 0px 5px black;
+}
+#password-generator {
+    background-color: #29ba85 ;
+    color: white;
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-shadow: 0px 0px 5px black;
+}
+.sample-password {
+    background-color: rgb(67, 65, 65);
+    color: #50C878;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 70px;
+    border: none;
+    border-radius: 5px;
+}
