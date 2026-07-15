@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title-1">Generate a </h1>
+        <h1 id="title-2">random password</h1>
+        <p>Never use an insecure password again.</p>
+        <div>
+            <input type="number" id="password-length" placeholder="Enter Length of password">
+        </div>
+        <div>
+            <p id="password-type">Password Type</p>
+            <div>
+                <button class="passwordType" id="alpha-password">Alphabatic</button>
+                <button class="passwordType" id="alpha-num-password">Alpha-numberic</button>
+                <button class="passwordType" id="all-characters-password">All Characters</button>
+            </div>
+        </div>
+        <button id="password-generator" onclick="generator()">Generate passwords</button>
+        <div>
+            <button class="sample-password" id="example-1"></button>
+            <button class="sample-password" id="example-2"></button>
+        </div>
+        <p> Click on the generated passwords to copy them</p>
+        <script src="password-generator.js"></script>
+    </body>
+</html>
